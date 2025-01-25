@@ -1,0 +1,7 @@
+[build]
+  base = "/"  # Ruta base del repositorio
+  command = ""  # Déjalo vacío si no necesitas un build
+  publish = "public"  # Carpeta donde está tu index.html
+
+[functions]
+  directory = "netlify/functions"  # Carpeta de funciones serverless (si las tienes)
