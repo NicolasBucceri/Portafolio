@@ -1,0 +1,10 @@
+# Ignorar el archivo .env
+.env
+
+# Otras configuraciones comunes de Git para evitar subir archivos innecesarios
+node_modules/
+npm-debug.log
+.DS_Store
+*.log
+dist/
+build/

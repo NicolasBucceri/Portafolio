@@ -1,0 +1,233 @@
+[
+    {
+      "id": "Inicio",
+      "className": "home",
+      "content": {
+        "smallText": "Hola",
+        "title": "Soy Nicolás Bucceri",
+        "subtitle": "Programador y Desarrollador Web",
+        "description": "Soy Desarrollador Web Full-Stack con experiencia en Front-end, Back-end y Diseño UX/UI. Con un enfoque en crear soluciones digitales eficientes y centradas en el usuario.",
+        "buttons": [
+          { "text": "Contactame", "href": "#Contacto", "className": "btn" },
+          { "text": "Portafolio", "href": "#Portafolio", "className": "btn btn_transparent" }
+        ],
+        "image": { "src": "assets/img/Perfil.png", "alt": "Imagen de perfil" }
+      }
+    },
+    {
+      "id": "SobreMi",
+      "className": "about section",
+      "content": {
+        "images": [
+          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 1" },
+          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 2" },
+          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 3" },
+          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 4" }
+        ],
+        "title": "Soy Nicolás Bucceri, Diseñador UX/UI y Desarrollador Web.",
+        "description": "Soy Nicolás Bucceri, Diseñador UX/UI y Desarrollador Web. Combino diseño funcional y desarrollo técnico para crear experiencias digitales intuitivas y atractivas. Con experiencia en front-end y back-end, me enfoco en ofrecer soluciones eficientes que mejoren la interacción del usuario y el rendimiento web. Estoy comprometido con la innovación y siempre busco superar las expectativas tanto de mis clientes como de los usuarios finales.",
+        "data": [
+          { "title": "Nombre:", "description": "Nicolas Bucceri" },
+          { "title": "Años:", "description": "21" },
+          { "title": "Pais:", "description": "Buenos Aires, Argentina" },
+          { "title": "Email:", "description": "nicolasbucceri@hotmail.com" }
+        ],
+        "cvLink": "assets/CV.pdf",
+        "socialLinks": [
+          { "platform": "instagram", "link": "", "icon": "fa-brands fa-instagram" },
+          { "platform": "linkedin", "link": "", "icon": "fa-brands fa-linkedin" },
+          { "platform": "github", "link": "", "icon": "fa-brands fa-github" }
+        ]
+      }
+    },
+    {
+        "id": "Formacion",
+        "className": "qualification section",
+        "content": {
+          "educacion": [
+            {
+              "institucion": "Curso de CoderHouse",
+              "curso": "Diseño UX/UI Avanzado",
+              "fecha": "2024 - 2025",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "+"
+            },
+            {
+              "institucion": "Dreamland - English Online",
+              "curso": "Ingles",
+              "fecha": "2024 - 2025",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "-"
+            },
+            {
+              "institucion": "Udemy",
+              "curso": "Master en JavaScript",
+              "fecha": "2024 - 2024",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "+"
+            },
+            {
+              "institucion": "Da Vinci",
+              "curso": "Desarrollador y Diseñador Web",
+              "fecha": "2022 - 2024",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "-"
+            },
+            {
+              "institucion": "Instituto San Rafael",
+              "curso": "Bachiller En Economía y Administración",
+              "fecha": "2017 - 2021",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "+"
+            }
+          ],
+          "trabajos": [
+            {
+              "empresa": "Freelancer",
+              "puesto": "El Rincon de la Laguna",
+              "fecha": "2025 - ACTUALIDAD",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "+"
+            },
+            {
+              "empresa": "Freelancer",
+              "puesto": "FraloConstrucciones",
+              "fecha": "2024 - 2025",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "-"
+            },
+            {
+              "empresa": "YOKO Eventos",
+              "puesto": "Encargado de Camareros",
+              "fecha": "2023 - 202",
+              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "icon": "+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Servicios",
+        "className": "services section",
+        "content": {
+          "services": [
+            {
+              "icon": "fa-solid fa-pen-to-square",
+              "title": "UI/Ux Design",
+              "description": "Con más de 3 años de experiencia, desarrollo diseños intuitivos que mejoran la interacción del usuario y optimizan la usabilidad, ayudando a mis clientes a impulsar el crecimiento de sus negocios.",
+              "number": "01"
+            },
+            {
+              "icon": "fa-solid fa-laptop",
+              "title": "Diseñador y Desarrollador Web",
+              "description": "Cuento con 4 años de experiencia, me especializo en crear y rediseñar páginas web que combinan un diseño atractivo con un desarrollo funcional, siempre enfocado en mejorar la experiencia del usuario y ayudar a mis clientes a impulsar su negocio online.",
+              "number": "02"
+            },
+            {
+              "icon": "fas fa-chart-line",
+              "title": "Análisis y Optimización Web",
+              "description": "Utilizo herramientas como Google Analytics para analizar métricas clave, identificar oportunidades de mejora y optimizar sitios web, ayudando a mis clientes a alcanzar sus objetivos de manera efectiva y eficiente.",
+              "number": "03"
+            },
+            {
+              "icon": "fa-solid fa-image",
+              "title": "Diseño y Edición Visual",
+              "description": "Manejo herramientas como Photoshop, Illustrator, Figma, entre otras, para desarrollar contenido visual de alta calidad, adaptado a las necesidades de cada cliente y optimizando su presencia digital.",
+              "number": "04"
+            },
+            {
+              "icon": "fa-solid fa-database",
+              "title": "Gestión y Optimización de Bases de Datos",
+              "description": "Administro, optimizo y realizo mantenimiento de bases de datos como MySQL, MongoDB y Firebase, asegurando un almacenamiento eficiente, seguro y accesible. Mi enfoque se centra en mantener la estructura de los datos organizada y garantizar su rendimiento óptimo para mejorar la eficiencia de tu sitio web.",
+              "number": "05"
+            },
+            {
+              "icon": "fa-solid fa-cogs",
+              "title": "Desarrollo y Gestión de API",
+              "description": "Desarrollo e implemento APIs RESTful para la integración de sistemas, permitiendo que tus aplicaciones web se comuniquen de manera más fluida. Me encargo de la creación, documentación y mantenimiento de APIs escalables y seguras, mejorando la interoperabilidad y eficiencia de tus proyectos digitales.",
+              "number": "06"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Habilidades",
+        "className": "skills section",
+        "content": {
+          "title": {
+            "text": "Habilidades Profesionales",
+            "subtitle": "Mi Talento"
+          },
+          "skills": [
+            {
+              "name": "JavaScript",
+              "percentage": "95%",
+              "description": "Amplia experiencia en desarrollo web con JavaScript, incluyendo frameworks modernos como Vue.js y React.",
+              "barWidth": "95%"
+            },
+            {
+              "name": "Vue.js",
+              "percentage": "85%",
+              "description": "Habilidad para construir aplicaciones dinámicas y reutilizables con Vue.js, implementando Vuex y Vue Router.",
+              "barWidth": "85%"
+            },
+            {
+              "name": "WordPress",
+              "percentage": "90%",
+              "description": "Experto en desarrollo y personalización de temas y plugins para WordPress, con optimización SEO avanzada.",
+              "barWidth": "90%"
+            },
+            {
+              "name": "PHP",
+              "percentage": "70%",
+              "description": "Desarrollo backend con PHP, integrando bases de datos como MySQL y creando APIs RESTful.",
+              "barWidth": "70%"
+            },
+            {
+              "name": "React",
+              "percentage": "75%",
+              "description": "Conocimiento intermedio en React para crear componentes reutilizables y manejar estado con Redux.",
+              "barWidth": "75%"
+            },
+            {
+              "name": "Adobe Creative Suite",
+              "percentage": "85%",
+              "description": "Proficiente en diseño gráfico y edición con herramientas como Photoshop, Illustrator y Premiere Pro.",
+              "barWidth": "85%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Portafolio",
+        "className": "works section",
+        "content": {
+          "title": {
+            "text": "Trabajos Recientes",
+            "subtitle": "Portafolio"
+          },
+          "works": [
+            {
+              "image": "assets/img/Portafolio1.png",
+              "title": "Web design",
+              "description": "This is a short description"
+            },
+            {
+              "image": "assets/img/Portafolio2.png",
+              "title": "Web design",
+              "description": "This is a short description"
+            },
+            {
+              "image": "/assets/img/Portafolio3.png",
+              "title": "Web design",
+              "description": "This is a short description"
+            },
+            {
+              "image": "assets/img/Portafolio4.png",
+              "title": "Web design",
+              "description": "This is a short description"
+            }
+          ]
+        }
+      }
+    ]

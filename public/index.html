@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js" defer></script>
+    <script src="app.js" defer></script>
+
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Nicolas Bucceri | Portafolio</title>
+  </head>
+  <body>
+    <input type="radio" name="color" id="color1" />
+    <input type="radio" name="color" id="color2" />
+    <input type="radio" name="color" id="color3" />
+    <input type="radio" name="color" id="color4" />
+    <input type="radio" name="color" id="color5" />
+    <input type="radio" name="color" id="color6" />
+    <input type="radio" name="color" id="color7" />
+    <input type="radio" name="color" id="color8" />
+    <input type="radio" name="color" id="color9" />
+    <input type="radio" name="color" id="color10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day_night" />
+
+    <!-- <img src="assets/img/Perfil.png" alt="">
+   <img src="assets/img/Portafolio1.png" alt="">
+   <img src="assets/img/Portafolio2.png" alt="">
+   <img src="assets/img/Portafolio3.png" alt="">
+   <img src="assets/img/Portafolio4.png" alt="">
+   <img src="assets/img/SobreMi.jpg" alt=""> -->
+
+    <div class="style_switcher">
+      <label for="toggler" class="style_switcher_toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day_night" class="style_switcher_theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style_switcher_title">Theme Colors</h3>
+
+      <div class="style_switcher_colors">
+        <label for="color1" class="color1 color"></label>
+        <label for="color2" class="color2 color"></label>
+        <label for="color3" class="color3 color"></label>
+        <label for="color4" class="color4 color"></label>
+        <label for="color5" class="color5 color"></label>
+        <label for="color6" class="color6 color"></label>
+        <label for="color7" class="color7 color"></label>
+        <label for="color8" class="color8 color"></label>
+        <label for="color9" class="color9 color"></label>
+        <label for="color10" class="color10 color"></label>
+      </div>
+    </div>
+
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo">Nicolas Bucceri</a>
+
+        <input type="checkbox" id="nav-toggler" />
+
+        <label for="nav-toggler" class="nav_toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#Inicio" class="nav_link active-link">Inicio</a>
+          </li>
+          <li class="nav_item">
+            <a href="#SobreMi" class="nav_link">Sobre mí</a>
+          </li>
+          <li class="nav_item">
+            <a href="#Formacion" class="nav_link">Formación</a>
+          </li>
+          <li class="nav_item">
+            <a href="#Servicios" class="nav_link">Servicios</a>
+          </li>
+          <li class="nav_item">
+            <a href="#Portafolio" class="nav_link">Portafolio</a>
+          </li>
+          <li class="nav_item">
+            <a href="#Contacto" class="nav_link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="main-container"></section>
+
+      <section class="contact section" id="Contacto">
+        <h2 class="section_title title_center" data-title="Ponte en contacto">
+          Contactame
+        </h2>
+
+        <div class="contenedorContacto container grid">
+          <div class="detallesContacto">
+            <div class="itemContacto">
+              <i class="fa-solid fa-phone contact_icon"></i>
+
+              <div>
+                <h3 class="tituloContacto">Call us</h3>
+                <span class="dataContacto">12345678</span>
+              </div>
+            </div>
+
+            <div class="itemContacto">
+              <i class="fa-solid fa-location-dot contact_icon"></i>
+
+              <div>
+                <h3 class="tituloContacto">Email us</h3>
+                <span class="dataContacto">asd@hotmail.com</span>
+              </div>
+            </div>
+
+            <div class="itemContacto">
+              <i class="fa-solid fa-envelope contact_icon"></i>
+
+              <div>
+                <h3 class="tituloContacto">Address</h3>
+                <span class="dataContacto">Caba</span>
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="formularioContacto">
+            <div class="grupoFormularioContacto">
+              <div class="inputFormularioContacto">
+                <input
+                  type="text"
+                  name="from_name"
+                  id="from_name"
+                  placeholder="Nombre"
+                  class="inputControlContacto"
+                  required
+                />
+              </div>
+              <div class="inputFormularioContacto">
+                <input
+                  type="email"
+                  name="email_id"
+                  id="email_id"
+                  placeholder="Email"
+                  class="inputControlContacto"
+                  required
+                />
+              </div>
+            </div>
+            <div class="inputFormularioContacto">
+              <input
+                type="text"
+                name="asunto"
+                id="asunto"
+                placeholder="Asunto"
+                class="inputControlContacto"
+                required
+              />
+            </div>
+            <div class="inputFormularioContacto">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Mensaje"
+                cols="30"
+                rows="10"
+                class="inputControlContacto textarea"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn botonContacto">Enviar</button>
+          </form>
+          
+          
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footerContenedor container">
+        <p class="copyrightFooter">
+          &copy 2025 Nicolas Bucceri. Todos los derechos reservados
+        </p>
+
+        <div class="linksSocialFooter">
+          <a href="" class="linkSocialFooter"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="" class="linkSocialFooter"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="" class="linkSocialFooter"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
