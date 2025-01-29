@@ -5,8 +5,8 @@
       "content": {
         "smallText": "Hola",
         "title": "Soy Nicolás Bucceri",
-        "subtitle": "Programador y Desarrollador Web",
-        "description": "Soy Desarrollador Web Full-Stack con experiencia en Front-end, Back-end y Diseño UX/UI. Con un enfoque en crear soluciones digitales eficientes y centradas en el usuario.",
+        "subtitle": "Diseñador y Desarrollador Web",
+        "description": "Me dedico a crear o rediseñar sitios web completos, desde el diseño visual hasta la funcionalidad detrás de la página. Me adapto a cualquier estilo según las necesidades del proyecto, creando sitios web que destacan y marcan la diferencia.",
         "buttons": [
           { "text": "Contactame", "href": "#Contacto", "className": "btn" },
           { "text": "Portafolio", "href": "#Portafolio", "className": "btn btn_transparent" }
