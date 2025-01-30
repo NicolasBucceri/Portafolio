@@ -405,7 +405,7 @@ input[type="checkbox"] {
 }
 
 .tituloInicio {
-  font-size: var(--big-font-size);
+  font-size: 25px;
   line-height: 1.4;
 }
 
