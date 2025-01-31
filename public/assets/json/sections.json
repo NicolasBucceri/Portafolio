@@ -199,40 +199,45 @@
         }
     },
     {
-        "id": "Portafolio",
-        "className": "works section",
-        "content": {
-          "title": {
-            "text": "Trabajos Recientes",
-            "subtitle": "Portafolio"
+      "id": "Portafolio",
+      "className": "works section",
+      "content": {
+        "title": {
+          "text": "Trabajos Recientes",
+          "subtitle": "Portafolio"
+        },
+        "works": [
+          {
+            "image": "assets/img/Portafolio1.png",
+            "title": "El Rincon De La Laguna",
+            "description": "Pagina Web",
+            "url": "https://example.com/rincon-laguna"
           },
-          "works": [
-            {
-              "image": "assets/img/Portafolio1.png",
-              "title": "El Rincon De La Laguna",
-              "description": "Pagina Web"
-            },
-            {
-              "image": "assets/img/Portafolio2.png",
-              "title": "FraloConstrucciones",
-              "description": "Pagina Web"
-            },
-            {
-              "image": "/assets/img/Portafolio3.png",
-              "title": "Steam",
-              "description": "Diseño Ux/Ui"
-            },
-            {
-              "image": "assets/img/Portafolio4.png",
-              "title": "YOKO Eventos",
-              "description": "Pagina Web"
-            },
-            {
-              "image": "assets/img/Portafolio5.png",
-              "title": "NutriTrack",
-              "description": "Pagina Web"
-            }
-          ]
-        }
-    }
+          {
+            "image": "assets/img/Portafolio2.png",
+            "title": "FraloConstrucciones",
+            "description": "Pagina Web",
+            "url": "https://grupofraloconstrucciones.com/"
+          },
+          {
+            "image": "assets/img/Portafolio3.png",
+            "title": "Steam",
+            "description": "Diseño Ux/Ui",
+            "url": "https://www.canva.com/design/DAGUlFHEA34/XfkOtApxLu5acpY_2P7Cxw/view?utm_content=DAGUlFHEA34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e97e3f6de"
+          },
+          {
+            "image": "assets/img/Portafolio4.png",
+            "title": "YOKO Eventos",
+            "description": "Pagina Web",
+            "url": "https://yoko-eventos.netlify.app/"
+          },
+          {
+            "image": "assets/img/Portafolio5.png",
+            "title": "NutriTrack",
+            "description": "Pagina Web",
+            "url": "https://nutri-track.netlify.app/"
+          }
+        ]
+      }
+    }    
 ]

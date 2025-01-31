@@ -213,14 +213,15 @@ function createSection(data) {
     <h2 class="section_title title_center" data-title="Portafolio">
       Trabajos Recientes
     </h2>
-
+  
     <div class="portafolioContenedor container grid">
       ${data.content.works
         .map(
           (work) => `
         <div class="cardPortafolio">
-          <img src="${work.image}" alt="" class="imgPortafolio" />
-
+          <a href="${work.url}" class="imgLink">
+            <img src="${work.image}" alt="${work.title}" class="imgPortafolio" />
+          </a>
           <div class="detallesPortafolio">
             <h3 class="tituloPortafolio">${work.title}</h3>
             <span class="descripcionHabilidades">${work.description}</span>
@@ -231,6 +232,7 @@ function createSection(data) {
         .join("")}
     </div>
   `;
+  
   } 
   return section;
 }
