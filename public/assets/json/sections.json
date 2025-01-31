@@ -24,19 +24,19 @@
           { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 3" },
           { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 4" }
         ],
-        "title": "Soy Nicolás Bucceri, Diseñador UX/UI y Desarrollador Web.",
-        "description": "Soy Nicolás Bucceri, Diseñador UX/UI y Desarrollador Web. Combino diseño funcional y desarrollo técnico para crear experiencias digitales intuitivas y atractivas. Con experiencia en front-end y back-end, me enfoco en ofrecer soluciones eficientes que mejoren la interacción del usuario y el rendimiento web. Estoy comprometido con la innovación y siempre busco superar las expectativas tanto de mis clientes como de los usuarios finales.",
+        "title": "Soy Nicolás Bucceri, Desarrollador Web y Diseñador UX/UI.",
+        "description": "Diseño y desarrollo sitios web completos que combinan estética, funcionalidad y una gran experiencia de usuario. Me adapto a cada proyecto para crear soluciones digitales efectivas, alineadas con las necesidades del negocio y las expectativas del usuario.",
         "data": [
           { "title": "Nombre:", "description": "Nicolas Bucceri" },
-          { "title": "Años:", "description": "21" },
-          { "title": "Pais:", "description": "Buenos Aires, Argentina" },
-          { "title": "Email:", "description": "nicolasbucceri@hotmail.com" }
+          { "title": "Edad:", "description": "21" },
+          { "title": "Región:", "description": "Buenos Aires, Argentina" },
+          { "title": "Email:", "description": "nicolasbucceri.dev@hotmail.com" }
         ],
         "cvLink": "assets/CV.pdf",
         "socialLinks": [
-          { "platform": "instagram", "link": "", "icon": "fa-brands fa-instagram" },
-          { "platform": "linkedin", "link": "", "icon": "fa-brands fa-linkedin" },
-          { "platform": "github", "link": "", "icon": "fa-brands fa-github" }
+          { "platform": "instagram", "link": "https://www.instagram.com/nicolas_bucceri/?hl=es-la", "icon": "fa-brands fa-instagram" },
+          { "platform": "linkedin", "link": "https://www.linkedin.com/in/nicolas-bucceri-715972244/", "icon": "fa-brands fa-linkedin" },
+          { "platform": "github", "link": "https://github.com/NicolasBucceri?tab=repositories", "icon": "fa-brands fa-github" }
         ]
       }
     },
@@ -49,35 +49,35 @@
               "institucion": "Curso de CoderHouse",
               "curso": "Diseño UX/UI Avanzado",
               "fecha": "2024 - 2025",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Profundicé en el diseño de experiencias digitales aplicando metodologías de investigación y testeo adaptadas al producto y negocio, con enfoque en el rediseño de productos digitales utilizando la metodología de James Garrett.",
               "icon": "+"
             },
             {
               "institucion": "Dreamland - English Online",
               "curso": "Ingles",
               "fecha": "2024 - 2025",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Amplié mis conocimientos en inglés, alcanzando un nivel intermedio. Mejoré en comprensión auditiva, expresión oral y escrita, con énfasis en vocabulario técnico y habilidades de comunicación en contextos profesionales.",
               "icon": "-"
             },
             {
               "institucion": "Udemy",
               "curso": "Master en JavaScript",
               "fecha": "2024 - 2024",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Amplié mis conocimientos en JavaScript y Node.js, profundizando en jQuery, TypeScript, Angular y el MEAN Stack. También reforcé mis habilidades en maquetación web, APIs RESTful y desarrollo de aplicaciones SPA.",
               "icon": "+"
             },
             {
               "institucion": "Da Vinci",
               "curso": "Desarrollador y Diseñador Web",
               "fecha": "2022 - 2024",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Aprendí tecnologías como React, PHP, Laravel, HTML, CSS, Node.js, Vue.js, JavaScript y WordPress, además de backend con MySQL, Firebase y MongoDB. Me especialicé en Diseño UX/UI y Marketing Digital, con formación adicional en Photoshop e Illustrator.",
               "icon": "-"
             },
             {
               "institucion": "Instituto San Rafael",
-              "curso": "Bachiller En Economía y Administración",
+              "curso": "Bach. en Econ. y Administración",
               "fecha": "2017 - 2021",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Durante mi formación adquirí conocimientos en gestión administrativa, contabilidad y economía. Sé manejar libros contables, análisis financiero y documentación administrativa.",
               "icon": "+"
             }
           ],
@@ -86,21 +86,21 @@
               "empresa": "Freelancer",
               "puesto": "El Rincon de la Laguna",
               "fecha": "2025 - ACTUALIDAD",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Desarrollo una web para cabañas en Chascomús, combinando diseño moderno y rústico. Uso Vue.js, JavaScript y Bootstrap para una experiencia fluida, intuitiva y adaptable a distintos dispositivos, tanto para clientes como para administradores.",
               "icon": "+"
             },
             {
               "empresa": "Freelancer",
               "puesto": "FraloConstrucciones",
               "fecha": "2024 - 2025",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "descripcion": "Desarrollé este sitio web en WordPress, aplicando un diseño moderno y minimalista con animaciones. Utilicé el tema Astra y Elementor Pro, junto con plugins como WPForms, WhatsApp y Chaty para optimizar la interacción. El proyecto se completó en dos semanas.",
               "icon": "-"
             },
             {
               "empresa": "YOKO Eventos",
               "puesto": "Encargado de Camareros",
-              "fecha": "2023 - 202",
-              "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus consectetur rerum distinctio, ea rem saepe odit ex qui vero optio unde obcaecati nemo fugit atque, omnis quisquam voluptas velit dolorem?",
+              "fecha": "2023 - 2024",
+              "descripcion": "Atendí al público en eventos, gestioné la recepción y reservas, coordiné un equipo de 5 personas y administré pagos a proveedores, asegurando un servicio eficiente, bien organizado y de calidad.",
               "icon": "+"
             }
           ]
