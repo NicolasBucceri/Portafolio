@@ -105,22 +105,22 @@
             }
           ]
         }
-      },
-      {
+    },
+    {
         "id": "Servicios",
         "className": "services section",
         "content": {
           "services": [
             {
               "icon": "fa-solid fa-pen-to-square",
-              "title": "UI/Ux Design",
+              "title": "Diseñador UX / UI",
               "description": "Con más de 3 años de experiencia, desarrollo diseños intuitivos que mejoran la interacción del usuario y optimizan la usabilidad, ayudando a mis clientes a impulsar el crecimiento de sus negocios.",
               "number": "01"
             },
             {
               "icon": "fa-solid fa-laptop",
               "title": "Diseñador y Desarrollador Web",
-              "description": "Cuento con 4 años de experiencia, me especializo en crear y rediseñar páginas web que combinan un diseño atractivo con un desarrollo funcional, siempre enfocado en mejorar la experiencia del usuario y ayudar a mis clientes a impulsar su negocio online.",
+              "description": "Con 4 años de experiencia, diseño y rediseño webs atractivas y funcionales, optimizando la experiencia del usuario para impulsar negocios online con soluciones efectivas y centradas en el cliente.",
               "number": "02"
             },
             {
@@ -149,8 +149,8 @@
             }
           ]
         }
-      },
-      {
+    },
+    {
         "id": "Habilidades",
         "className": "skills section",
         "content": {
@@ -168,7 +168,7 @@
             {
               "name": "Vue.js",
               "percentage": "85%",
-              "description": "Habilidad para construir aplicaciones dinámicas y reutilizables con Vue.js, implementando Vuex y Vue Router.",
+              "description": "Experiencia avanzada en el desarrollo de aplicaciones dinámicas y escalables implementando Vuex y Vue Router.",
               "barWidth": "85%"
             },
             {
@@ -180,7 +180,7 @@
             {
               "name": "PHP",
               "percentage": "70%",
-              "description": "Desarrollo backend con PHP, integrando bases de datos como MySQL y creando APIs RESTful.",
+              "description": "Desarrollo backend con PHP, integrando MySQL, optimizando consultas y creando APIs RESTful escalables.",
               "barWidth": "70%"
             },
             {
@@ -197,8 +197,8 @@
             }
           ]
         }
-      },
-      {
+    },
+    {
         "id": "Portafolio",
         "className": "works section",
         "content": {
@@ -219,15 +219,20 @@
             },
             {
               "image": "/assets/img/Portafolio3.png",
-              "title": "Web design",
-              "description": "This is a short description"
+              "title": "Steam",
+              "description": "Diseño Ux/Ui"
             },
             {
               "image": "assets/img/Portafolio4.png",
-              "title": "Web design",
-              "description": "This is a short description"
+              "title": "YOKO Eventos",
+              "description": "Pagina Web"
+            },
+            {
+              "image": "assets/img/Portafolio5.png",
+              "title": "NutriTrack",
+              "description": "Pagina Web"
             }
           ]
         }
-      }
-    ]
+    }
+]
