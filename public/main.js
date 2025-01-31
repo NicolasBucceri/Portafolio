@@ -219,20 +219,21 @@ function createSection(data) {
         .map(
           (work) => `
         <div class="cardPortafolio">
-          <a href="${work.url}" class="imgLink">
-            <img src="${work.image}" alt="${work.title}" class="imgPortafolio" />
+          <a href="${work.url}" class="imgLink" target="_blank">
+            <div class="imgWrapper">
+              <img src="${work.image}" alt="${work.title}" class="imgPortafolio" />
+            </div>
+            <div class="detallesPortafolio">
+              <h3 class="tituloPortafolio">${work.title}</h3>
+              <span class="descripcionHabilidades">${work.description}</span>
+            </div>
           </a>
-          <div class="detallesPortafolio">
-            <h3 class="tituloPortafolio">${work.title}</h3>
-            <span class="descripcionHabilidades">${work.description}</span>
-          </div>
         </div>
       `
         )
         .join("")}
     </div>
-  `;
-  
+  `;  
   } 
   return section;
 }
