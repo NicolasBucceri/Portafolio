@@ -826,6 +826,7 @@ input[type="checkbox"] {
 }
 
 .descripcionHabilidades {
+  color: var(--text-color);
   margin-block: 1rem 1.8rem;
 }
 
