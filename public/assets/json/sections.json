@@ -209,13 +209,13 @@
           "works": [
             {
               "image": "assets/img/Portafolio1.png",
-              "title": "Web design",
-              "description": "This is a short description"
+              "title": "El Rincon De La Laguna",
+              "description": "Pagina Web"
             },
             {
               "image": "assets/img/Portafolio2.png",
-              "title": "Web design",
-              "description": "This is a short description"
+              "title": "FraloConstrucciones",
+              "description": "Pagina Web"
             },
             {
               "image": "/assets/img/Portafolio3.png",
