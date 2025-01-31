@@ -210,13 +210,13 @@
           {
             "image": "assets/img/Portafolio1.png",
             "title": "El Rincon De La Laguna",
-            "description": "Pagina Web",
+            "description": "Desarrollo y Diseño Web",
             "url": "https://example.com/rincon-laguna"
           },
           {
             "image": "assets/img/Portafolio2.png",
             "title": "FraloConstrucciones",
-            "description": "Pagina Web",
+            "description": "Desarrollo y Diseño Web",
             "url": "https://grupofraloconstrucciones.com/"
           },
           {
@@ -228,13 +228,13 @@
           {
             "image": "assets/img/Portafolio4.png",
             "title": "YOKO Eventos",
-            "description": "Pagina Web",
+            "description": "Desarrollo y Diseño Web",
             "url": "https://yoko-eventos.netlify.app/"
           },
           {
             "image": "assets/img/Portafolio5.png",
             "title": "NutriTrack",
-            "description": "Pagina Web",
+            "description": "Desarrollo y Diseño Web",
             "url": "https://nutri-track.netlify.app/"
           }
         ]
