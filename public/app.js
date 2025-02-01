@@ -1,27 +1,13 @@
-document.getElementById('contactForm').addEventListener('submit', async function(e) {
-    e.preventDefault(); // Prevenir el comportamiento por defecto del formulario
-  
-    const formData = new FormData(this);
-    const data = Object.fromEntries(formData.entries());
-  
-    try {
-        const response = await fetch('http://localhost:3000/send-email', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data),
-        });
-     
-        const result = await response.text();
-        if (response.ok) {
-          alert(result);
-        } else {
-          alert('Error: ' + result);
-        }
-      } catch (error) {
-        console.error('Error:', error);
-        alert('Error al enviar el correo');
-      }     
-  });
-  
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault(); // Prevenir el comportamiento por defecto del formulario
+
+  // Usamos emailjs.sendForm para enviar el formulario directamente a EmailJS
+  emailjs.sendForm('service_wgqca7a', 'template_5exil2t', this)
+      .then(function(response) {
+          console.log('Correo enviado con éxito:', response);
+          alert('¡Mensaje enviado correctamente!');
+      }, function(error) {
+          console.log('Error al enviar el correo:', error);
+          alert('Hubo un problema al enviar el mensaje.');
+      });
+});
