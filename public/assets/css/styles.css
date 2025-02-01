@@ -826,7 +826,6 @@ input[type="checkbox"] {
 }
 
 .descripcionHabilidades {
-  color: var(--text-color);
   margin-block: 1rem 1.8rem;
 }
 
@@ -905,7 +904,7 @@ input[type="checkbox"] {
 
 .tituloPortafolio,
 .descripcionHabilidades {
-  color: var(--white);
+  color: var(--text-color);
   transform: translateY(1.5rem);
   -webkit-transform: translateY(1.5rem);
   -moz-transform: translateY(1.5rem);
@@ -1017,6 +1016,11 @@ input[type="checkbox"] {
 .linkSocialFooter {
   color: var(--text-color);
   font-size: var(--large-font-size);
+}
+
+/*Links Footer Hover*/
+.linkSocialFooter:hover {
+  color: var(--first-color);
 }
 
 /*========== MEDIAS ==========*/

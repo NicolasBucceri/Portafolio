@@ -13,6 +13,20 @@
     <script src="main.js" defer></script>
     <script src="app.js" defer></script>
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-T8Q783KN4J"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-T8Q783KN4J");
+    </script>
 
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Nicolas Bucceri | Portafolio</title>
@@ -130,7 +144,9 @@
 
               <div>
                 <h3 class="tituloContacto">Ubicacion</h3>
-                <span class="dataContacto">Devoto, Buenos Aires, Argentina</span>
+                <span class="dataContacto"
+                  >Devoto, Buenos Aires, Argentina</span
+                >
               </div>
             </div>
           </div>
@@ -181,8 +197,6 @@
             </div>
             <button type="submit" class="btn botonContacto">Enviar</button>
           </form>
-          
-          
         </div>
       </section>
     </main>
@@ -194,13 +208,19 @@
         </p>
 
         <div class="linksSocialFooter">
-          <a href="" class="linkSocialFooter"
+          <a
+            href="https://www.instagram.com/nicolas_bucceri/?hl=es-la"
+            class="linkSocialFooter"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="" class="linkSocialFooter"
+          <a
+            href="https://www.linkedin.com/in/nicolas-bucceri-715972244/"
+            class="linkSocialFooter"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="" class="linkSocialFooter"
+          <a
+            href="https://github.com/NicolasBucceri?tab=repositories"
+            class="linkSocialFooter"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
