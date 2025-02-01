@@ -1,3 +1,5 @@
+emailjs.init('upc6A1YO3r0aOjNN9'); // Usar solo la Public Key aquí
+
 document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault(); // Prevenir el comportamiento por defecto del formulario
 
