@@ -225,7 +225,7 @@ function createSection(data) {
             </div>
             <div class="detallesPortafolio">
               <h3 class="tituloPortafolio">${work.title}</h3>
-              <span class="descripcionHabilidades">${work.description}</span>
+              <span class="descripcionPortafolios">${work.description}</span>
             </div>
           </a>
         </div>

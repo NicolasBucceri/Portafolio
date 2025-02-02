@@ -903,8 +903,8 @@ input[type="checkbox"] {
 }
 
 .tituloPortafolio,
-.descripcionHabilidades {
-  color: var(--text-color);
+.descripcionPortafolios {
+  color: var(--white);
   transform: translateY(1.5rem);
   -webkit-transform: translateY(1.5rem);
   -moz-transform: translateY(1.5rem);
@@ -917,7 +917,7 @@ input[type="checkbox"] {
   -o-transition: all 0.3s ease-in-out;
 }
 
-.descripcionHabilidades {
+.descripcionPortafolios {
   font-size: var(--large-font-size);
 }
 
@@ -926,7 +926,7 @@ input[type="checkbox"] {
   opacity: 1;
 }
 
-.cardPortafolio:hover :is(.tituloPortafolio, .descripcionHabilidades) {
+.cardPortafolio:hover :is(.tituloPortafolio, .descripcionPortafolios) {
   transform: translateY(0);
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
