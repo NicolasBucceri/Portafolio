@@ -19,3 +19,13 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
+
+function sendMail() {
+  let params = {
+    nombre : document.getElementById("nombre").value,
+    email : document.getElementById("email").value,
+    asunto : document.getElementById("asunto").value,
+    mensaje : document.getElementById("mensaje").value,
+  }
+  emailjs.send("service_wgqca7a","template_5exil2t",params).then(alert("Email Enviado"))
+}
