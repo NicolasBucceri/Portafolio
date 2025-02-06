@@ -1,4 +1,4 @@
-const btn = document.getElementById('button');
+const btn = document.getElementById('botonFormulario');
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
