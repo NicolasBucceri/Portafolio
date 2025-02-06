@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(() => {
                 btn.textContent = 'Enviar';
                 alert('Correo enviado con éxito!');
-                form.reset(); // Limpia los campos del formulario
+                form.reset();
             })
             .catch((err) => {
                 btn.textContent = 'Enviar';
