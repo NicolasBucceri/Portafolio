@@ -1,22 +1,27 @@
-const express = require('express');
-const path = require('path');
+app.post("/verify-recaptcha", async (req, res) => {
+  const { token } = req.body; // Obtener el token del frontend
+  const secretKey = "6LcYLs8qAAAAACsH5Jy9pNy0XTs3_m-Y7yUavinX"; // Reemplázalo con tu clave secreta
 
-const app = express();
-const port = 3000;
+  try {
+      const response = await fetch("https://www.google.com/recaptcha/api/siteverify", {
+          method: "POST",
+          headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: new URLSearchParams({
+              secret: secretKey,
+              response: token,
+          }),
+      });
 
-// Middleware para procesar datos del formulario
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+      const data = await response.json();
 
-// Servir archivos estáticos
-app.use(express.static(path.join(__dirname, 'public')));
-
-// Ruta principal para servir index.html
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+      if (data.success) {
+          res.json({ success: true, message: "Verificación exitosa" });
+      } else {
+          res.status(400).json({ success: false, message: "Verificación fallida" });
+      }
+  } catch (error) {
+      res.status(500).json({ success: false, message: "Error en el servidor" });
+  }
 });
-
-app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
-});
-
