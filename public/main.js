@@ -261,3 +261,22 @@ fetch(jsonPath)
   .catch((error) => {
     console.error("Error:", error);
   });
+
+
+  function sendMail() {
+    emailjs.send("service_wgqca7a", "service_wgqca7a", {
+        nombre: document.getElementById("nombre").value,
+        email: document.getElementById("email").value,
+        asunto: document.getElementById("asunto").value,
+        mensaje: document.getElementById("mensaje").value,
+      })
+      .then((response) => {
+        console.log("Correo enviado con éxito", response);
+        alert("Correo enviado correctamente.");
+      })
+      .catch((error) => {
+        console.error("Error al enviar el correo", error);
+        alert("Hubo un error al enviar el correo.");
+      });
+  }
+  
