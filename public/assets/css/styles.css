@@ -457,6 +457,50 @@ input[type="checkbox"] {
   vertical-align: middle;
 }
 
+.instagram-btn {
+  position: fixed;
+  left: 20px;
+  bottom: 12%;
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.instagram-btn:hover {
+  background: linear-gradient(45deg, #ffdc80, #fcaf45, #d6249f, #285aeb);
+}
+
+.whatsapp-btn {
+  position: fixed;
+  left: 20px;
+  bottom: 4%;
+  background-color: #25D366;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
 /* Animación Inicio */
 @keyframes animacion_before {
   0% {
