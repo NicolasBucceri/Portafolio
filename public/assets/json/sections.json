@@ -11,7 +11,7 @@
           { "text": "Contactame", "href": "#Contacto", "className": "btn" },
           { "text": "Portafolio", "href": "#Portafolio", "className": "btn btn_transparent" }
         ],
-        "image": { "src": "assets/img/Perfil.png", "alt": "Imagen de perfil" }
+        "image": { "src": "assets/img/Perfil.png", "alt": "Nicolas Bucceri Portafolio Perfil" }
       }
     },
     {
@@ -19,10 +19,10 @@
       "className": "about section",
       "content": {
         "images": [
-          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 1" },
-          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 2" },
-          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 3" },
-          { "src": "assets/img/SobreMi.jpg", "alt": "Imagen 4" }
+          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img1" },
+          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img2" },
+          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img3" },
+          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img4" }
         ],
         "title": "Soy Nicolás Bucceri, Desarrollador Web y Diseñador UX/UI.",
         "description": "Diseño y desarrollo sitios web completos que combinan estética, funcionalidad y una gran experiencia de usuario. Me adapto a cada proyecto para crear soluciones digitales efectivas, alineadas con las necesidades del negocio y las expectativas del usuario.",
