@@ -1,249 +1,303 @@
 [
-    {
-      "id": "Inicio",
-      "className": "home",
-      "content": {
-        "smallText": "Hola",
-        "title": "Soy Nicolás Bucceri",
-        "subtitle": "Diseñador y Programador Web",
-        "description": "Me dedico a crear o rediseñar sitios web completos, desde el diseño visual hasta la funcionalidad detrás de la página. Me adapto a cualquier estilo según las necesidades del proyecto, para crear sitios web que realmente marcan la diferencia.",
-        "buttons": [
-          { "text": "Contactame", "href": "#Contacto", "className": "btn" },
-          { "text": "Portafolio", "href": "#Portafolio", "className": "btn btn_transparent" }
-        ],
-        "image": { "src": "assets/img/Perfil.png", "alt": "Nicolas Bucceri Portafolio Perfil" }
-      }
-    },
-    {
-      "id": "SobreMi",
-      "className": "about section",
-      "content": {
-        "images": [
-          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img1" },
-          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img2" },
-          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img3" },
-          { "src": "assets/img/SobreMi.jpg", "alt": "Nicolas Bucceri Portafolio Img4" }
-        ],
-        "title": "Soy Nicolás Bucceri, Desarrollador Web y Diseñador UX/UI.",
-        "description": "Diseño y desarrollo sitios web completos que combinan estética, funcionalidad y una gran experiencia de usuario. Me adapto a cada proyecto para crear soluciones digitales efectivas, alineadas con las necesidades del negocio y las expectativas del usuario.",
-        "data": [
-          { "title": "Nombre:", "description": "Nicolas Bucceri" },
-          { "title": "Edad:", "description": "21" },
-          { "title": "Región:", "description": "Buenos Aires, Argentina" },
-          { "title": "Email:", "description": "nicolasbucceri.dev@hotmail.com" }
-        ],
-        "cvLink": "assets/CV.pdf",
-        "socialLinks": [
-          { "platform": "instagram", "link": "https://www.instagram.com/nicolas_bucceri/?hl=es-la", "icon": "fa-brands fa-instagram" },
-          { "platform": "linkedin", "link": "https://www.linkedin.com/in/nicolas-bucceri-715972244/", "icon": "fa-brands fa-linkedin" },
-          { "platform": "github", "link": "https://github.com/NicolasBucceri?tab=repositories", "icon": "fa-brands fa-github" }
-        ]
-      }
-    },
-    {
-        "id": "Formacion",
-        "className": "qualification section",
-        "content": {
-          "educacion": [
-            {
-              "institucion": "Curso de CoderHouse",
-              "curso": "Diseño UX/UI Avanzado",
-              "fecha": "2024 - 2025",
-              "descripcion": "Profundicé en el diseño de experiencias digitales aplicando metodologías de investigación y testeo adaptadas al producto y negocio, con enfoque en el rediseño de productos digitales utilizando la metodología de James Garrett.",
-              "icon": "+"
-            },
-            {
-              "institucion": "Dreamland - English Online",
-              "curso": "Ingles",
-              "fecha": "2024 - 2025",
-              "descripcion": "Amplié mis conocimientos en inglés, alcanzando un nivel intermedio. Mejoré en comprensión auditiva, expresión oral y escrita, con énfasis en vocabulario técnico y habilidades de comunicación en contextos profesionales.",
-              "icon": "-"
-            },
-            {
-              "institucion": "Udemy",
-              "curso": "Master en JavaScript",
-              "fecha": "2024 - 2024",
-              "descripcion": "Amplié mis conocimientos en JavaScript y Node.js, profundizando en jQuery, TypeScript, Angular y el MEAN Stack. También reforcé mis habilidades en maquetación web, APIs RESTful y desarrollo de aplicaciones SPA.",
-              "icon": "+"
-            },
-            {
-              "institucion": "Da Vinci",
-              "curso": "Desarrollador y Diseñador Web",
-              "fecha": "2022 - 2024",
-              "descripcion": "Aprendí tecnologías como React, PHP, Laravel, HTML, CSS, Node.js, Vue.js, JavaScript y WordPress, además de backend con MySQL, Firebase y MongoDB. Me especialicé en Diseño UX/UI y Marketing Digital, con formación adicional en Photoshop e Illustrator.",
-              "icon": "-"
-            },
-            {
-              "institucion": "Instituto San Rafael",
-              "curso": "Bach. en Econ. y Administración",
-              "fecha": "2017 - 2021",
-              "descripcion": "Durante mi formación adquirí conocimientos en gestión administrativa, contabilidad y economía. Sé manejar libros contables, análisis financiero y documentación administrativa.",
-              "icon": "+"
-            }
-          ],
-          "trabajos": [
-            {
-              "empresa": "Freelancer",
-              "puesto": "El Rincon de la Laguna",
-              "fecha": "2025 - ACTUALIDAD",
-              "descripcion": "Desarrollo una web para cabañas en Chascomús, combinando diseño moderno y rústico. Uso Vue.js, JavaScript y Bootstrap para una experiencia fluida, intuitiva y adaptable a distintos dispositivos, tanto para clientes como para administradores.",
-              "icon": "+"
-            },
-            {
-              "empresa": "Freelancer",
-              "puesto": "FraloConstrucciones",
-              "fecha": "2024 - 2025",
-              "descripcion": "Desarrollé este sitio web en WordPress, aplicando un diseño moderno y minimalista con animaciones. Utilicé el tema Astra y Elementor Pro, junto con plugins como WPForms, WhatsApp y Chaty para optimizar la interacción. El proyecto se completó en dos semanas.",
-              "icon": "-"
-            },
-            {
-              "empresa": "YOKO Eventos",
-              "puesto": "Encargado de Camareros",
-              "fecha": "2023 - 2024",
-              "descripcion": "Atendí al público en eventos, gestioné la recepción y reservas, coordiné un equipo de 5 personas y administré pagos a proveedores, asegurando un servicio eficiente, bien organizado y de calidad.",
-              "icon": "+"
-            }
-          ]
-        }
-    },
-    {
-        "id": "Servicios",
-        "className": "services section",
-        "content": {
-          "services": [
-            {
-              "icon": "fa-solid fa-pen-to-square",
-              "title": "Diseñador UX / UI",
-              "description": "Con más de 3 años de experiencia, desarrollo diseños intuitivos que mejoran la interacción del usuario y optimizan la usabilidad, ayudando a mis clientes a impulsar el crecimiento de sus negocios.",
-              "number": "01"
-            },
-            {
-              "icon": "fa-solid fa-laptop",
-              "title": "Diseñador y Desarrollador Web",
-              "description": "Con 4 años de experiencia, diseño y rediseño webs atractivas y funcionales, optimizando la experiencia del usuario para impulsar negocios online con soluciones efectivas y centradas en el cliente.",
-              "number": "02"
-            },
-            {
-              "icon": "fas fa-chart-line",
-              "title": "Análisis y Optimización Web",
-              "description": "Utilizo herramientas como Google Analytics para analizar métricas clave, identificar oportunidades de mejora y optimizar sitios web, ayudando a mis clientes a alcanzar sus objetivos de manera efectiva y eficiente.",
-              "number": "03"
-            },
-            {
-              "icon": "fa-solid fa-image",
-              "title": "Diseño y Edición Visual",
-              "description": "Manejo herramientas como Photoshop, Illustrator, Figma, entre otras, para desarrollar contenido visual de alta calidad, adaptado a las necesidades de cada cliente y optimizando su presencia digital.",
-              "number": "04"
-            },
-            {
-              "icon": "fa-solid fa-database",
-              "title": "Gestión y Optimización de Bases de Datos",
-              "description": "Administro, optimizo y realizo mantenimiento de bases de datos como MySQL, MongoDB y Firebase, asegurando un almacenamiento eficiente, seguro y accesible. Mi enfoque se centra en mantener la estructura de los datos organizada y garantizar su rendimiento óptimo para mejorar la eficiencia de tu sitio web.",
-              "number": "05"
-            },
-            {
-              "icon": "fa-solid fa-cogs",
-              "title": "Desarrollo y Gestión de API",
-              "description": "Desarrollo e implemento APIs RESTful para la integración de sistemas, permitiendo que tus aplicaciones web se comuniquen de manera más fluida. Me encargo de la creación, documentación y mantenimiento de APIs escalables y seguras, mejorando la interoperabilidad y eficiencia de tus proyectos digitales.",
-              "number": "06"
-            }
-          ]
-        }
-    },
-    {
-        "id": "Habilidades",
-        "className": "skills section",
-        "content": {
-          "title": {
-            "text": "Habilidades Profesionales",
-            "subtitle": "Mi Talento"
-          },
-          "skills": [
-            {
-              "name": "JavaScript",
-              "percentage": "95%",
-              "description": "Amplia experiencia en desarrollo web con JavaScript, incluyendo frameworks modernos como Vue.js y React.",
-              "barWidth": "95%"
-            },
-            {
-              "name": "Vue.js",
-              "percentage": "85%",
-              "description": "Experiencia avanzada en el desarrollo de aplicaciones dinámicas y escalables implementando Vuex y Vue Router.",
-              "barWidth": "85%"
-            },
-            {
-              "name": "WordPress",
-              "percentage": "90%",
-              "description": "Experto en desarrollo y personalización de temas y plugins para WordPress, con optimización SEO avanzada.",
-              "barWidth": "90%"
-            },
-            {
-              "name": "PHP",
-              "percentage": "70%",
-              "description": "Desarrollo backend con PHP, integrando MySQL, optimizando consultas y creando APIs RESTful escalables.",
-              "barWidth": "70%"
-            },
-            {
-              "name": "React",
-              "percentage": "75%",
-              "description": "Conocimiento intermedio en React para crear componentes reutilizables y manejar estado con Redux.",
-              "barWidth": "75%"
-            },
-            {
-              "name": "Adobe Creative Suite",
-              "percentage": "85%",
-              "description": "Proficiente en diseño gráfico y edición con herramientas como Photoshop, Illustrator y Premiere Pro.",
-              "barWidth": "85%"
-            }
-          ]
-        }
-    },
-    {
-      "id": "Portafolio",
-      "className": "works section",
-      "content": {
-        "title": {
-          "text": "Trabajos Recientes",
-          "subtitle": "Portafolio"
+  {
+    "id": "Inicio",
+    "className": "home",
+    "content": {
+      "smallText": "Hola",
+      "title": "Soy Nicolás Bucceri",
+      "subtitle": "Diseñador y Programador Web",
+      "description": "Me dedico a crear o rediseñar sitios web completos, desde el diseño visual hasta la funcionalidad detrás de la página. Me adapto a cualquier estilo según las necesidades del proyecto, para crear sitios web que realmente marcan la diferencia.",
+      "buttons": [
+        {
+          "text": "Contactame",
+          "href": "#Contacto",
+          "className": "btn"
         },
-        "works": [
-          {
-            "image": "assets/img/Portafolio6.png",
-            "title": "Dolce Mattina",
-            "description": "Desarrollo y Diseño Web",
-            "url": "https://dolcemattina.netlify.app/"
-          },
-          {
-            "image": "assets/img/Portafolio1.png",
-            "title": "El Rincon De La Laguna",
-            "description": "Desarrollo y Diseño Web",
-            "url": "https://example.com/rincon-laguna"
-          },
-          {
-            "image": "assets/img/Portafolio2.png",
-            "title": "FraloConstrucciones",
-            "description": "Desarrollo y Diseño Web",
-            "url": "https://grupofraloconstrucciones.com/"
-          },
-          {
-            "image": "assets/img/Portafolio3.png",
-            "title": "Steam",
-            "description": "Diseño Ux/Ui",
-            "url": "https://www.canva.com/design/DAGUlFHEA34/XfkOtApxLu5acpY_2P7Cxw/view?utm_content=DAGUlFHEA34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e97e3f6de"
-          },
-          {
-            "image": "assets/img/Portafolio4.png",
-            "title": "YOKO Eventos",
-            "description": "Desarrollo y Diseño Web",
-            "url": "https://yoko-eventos.netlify.app/"
-          },
-          {
-            "image": "assets/img/Portafolio5.png",
-            "title": "NutriTrack",
-            "description": "Desarrollo y Diseño Web",
-            "url": "https://nutri-track.netlify.app/"
-          }
-        ]
+        {
+          "text": "Portafolio",
+          "href": "#Portafolio",
+          "className": "btn btn_transparent"
+        }
+      ],
+      "image": {
+        "src": "assets/img/Perfil.png",
+        "alt": "Nicolas Bucceri Portafolio Perfil"
       }
-    }    
+    }
+  },
+  {
+    "id": "SobreMi",
+    "className": "about section",
+    "content": {
+      "images": [
+        {
+          "src": "assets/img/SobreMi.jpg",
+          "alt": "Nicolas Bucceri Portafolio Img1"
+        },
+        {
+          "src": "assets/img/SobreMi.jpg",
+          "alt": "Nicolas Bucceri Portafolio Img2"
+        },
+        {
+          "src": "assets/img/SobreMi.jpg",
+          "alt": "Nicolas Bucceri Portafolio Img3"
+        },
+        {
+          "src": "assets/img/SobreMi.jpg",
+          "alt": "Nicolas Bucceri Portafolio Img4"
+        }
+      ],
+      "title": "Soy Nicolás Bucceri, Desarrollador Web y Diseñador UX/UI.",
+      "description": "Diseño y desarrollo sitios web completos que combinan estética, funcionalidad y una gran experiencia de usuario. Me adapto a cada proyecto para crear soluciones digitales efectivas, alineadas con las necesidades del negocio y las expectativas del usuario.",
+      "data": [
+        {
+          "title": "Nombre:",
+          "description": "Nicolas Bucceri"
+        },
+        {
+          "title": "Edad:",
+          "description": "21"
+        },
+        {
+          "title": "Región:",
+          "description": "Buenos Aires, Argentina"
+        },
+        {
+          "title": "Email:",
+          "description": "nicolasbucceri.dev@hotmail.com"
+        }
+      ],
+      "cvLink": "assets/CV.pdf",
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "link": "https://www.instagram.com/nicolas_bucceri/?hl=es-la",
+          "icon": "fa-brands fa-instagram"
+        },
+        {
+          "platform": "linkedin",
+          "link": "https://www.linkedin.com/in/nicolas-bucceri-715972244/",
+          "icon": "fa-brands fa-linkedin"
+        },
+        {
+          "platform": "github",
+          "link": "https://github.com/NicolasBucceri?tab=repositories",
+          "icon": "fa-brands fa-github"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Formacion",
+    "className": "qualification section",
+    "content": {
+      "educacion": [
+        {
+          "institucion": "Curso de CoderHouse",
+          "curso": "Diseño UX/UI Avanzado",
+          "fecha": "2024 - 2025",
+          "descripcion": "Profundicé en el diseño de experiencias digitales aplicando metodologías de investigación y testeo adaptadas al producto y negocio, con enfoque en el rediseño de productos digitales utilizando la metodología de James Garrett.",
+          "icon": "+"
+        },
+        {
+          "institucion": "Dreamland - English Online",
+          "curso": "Ingles",
+          "fecha": "2024 - 2025",
+          "descripcion": "Amplié mis conocimientos en inglés, alcanzando un nivel intermedio. Mejoré en comprensión auditiva, expresión oral y escrita, con énfasis en vocabulario técnico y habilidades de comunicación en contextos profesionales.",
+          "icon": "-"
+        },
+        {
+          "institucion": "Udemy",
+          "curso": "Master en JavaScript",
+          "fecha": "2024 - 2024",
+          "descripcion": "Amplié mis conocimientos en JavaScript y Node.js, profundizando en jQuery, TypeScript, Angular y el MEAN Stack. También reforcé mis habilidades en maquetación web, APIs RESTful y desarrollo de aplicaciones SPA.",
+          "icon": "+"
+        },
+        {
+          "institucion": "Da Vinci",
+          "curso": "Desarrollador y Diseñador Web",
+          "fecha": "2022 - 2024",
+          "descripcion": "Aprendí tecnologías como React, PHP, Laravel, HTML, CSS, Node.js, Vue.js, JavaScript y WordPress, además de backend con MySQL, Firebase y MongoDB. Me especialicé en Diseño UX/UI y Marketing Digital, con formación adicional en Photoshop e Illustrator.",
+          "icon": "-"
+        },
+        {
+          "institucion": "Instituto San Rafael",
+          "curso": "Bach. en Econ. y Administración",
+          "fecha": "2017 - 2021",
+          "descripcion": "Durante mi formación adquirí conocimientos en gestión administrativa, contabilidad y economía. Sé manejar libros contables, análisis financiero y documentación administrativa.",
+          "icon": "+"
+        }
+      ],
+      "trabajos": [
+        {
+          "empresa": "Freelancer",
+          "puesto": "Desarrollador Web / Diseñador UX-UI ",
+          "fecha": "2026 - ACTUALIDAD",
+          "descripcion": "Diseño y desarrollo de sitios web con Vue.js, Tailwind, Firebase y Node.js, centrados en usuario, rendimiento y automatización, con pagos, PWAs y soluciones a medida.",
+          "icon": "-"
+        },
+        {
+          "empresa": "Freelancer",
+          "puesto": "Plego Amoblamientos",
+          "fecha": "2025 - 2026",
+          "descripcion": "Landing page construida con Vue.js y Bootstrap, bajo una arquitectura modular de componentes y un enfoque desktop-first, priorizando rendimiento, claridad visual y experiencia consistente en todos los dispositivos.",
+          "icon": "+"
+        },
+        {
+          "empresa": "Freelancer",
+          "puesto": "Dolce Mattina",
+          "fecha": "2024 - 2025",
+          "descripcion": "Desarrollo de landing page y PWA mobile-first con HTML, CSS, JavaScript, Service Workers y manifest.json; optimizada para offline, diseño modular, animaciones personalizadas y experiencia fluida en móvil y desktop.",
+          "icon": "+"
+        },
+        {
+          "empresa": "Freelancer",
+          "puesto": "FraloConstrucciones",
+          "fecha": "2024 - 2025",
+          "descripcion": "Desarrollé este sitio web en WordPress, aplicando un diseño moderno y minimalista con animaciones. Utilicé el tema Astra y Elementor Pro, junto con plugins como WPForms, WhatsApp y Chaty para optimizar la interacción. El proyecto se completó en dos semanas.",
+          "icon": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Servicios",
+    "className": "services section",
+    "content": {
+      "services": [
+        {
+          "icon": "fa-solid fa-pen-to-square",
+          "title": "Diseñador UX / UI",
+          "description": "Con más de 3 años de experiencia, desarrollo diseños intuitivos que mejoran la interacción del usuario y optimizan la usabilidad, ayudando a mis clientes a impulsar el crecimiento de sus negocios.",
+          "number": "01"
+        },
+        {
+          "icon": "fa-solid fa-laptop",
+          "title": "Diseñador y Desarrollador Web",
+          "description": "Con 4 años de experiencia, diseño y rediseño webs atractivas y funcionales, optimizando la experiencia del usuario para impulsar negocios online con soluciones efectivas y centradas en el cliente.",
+          "number": "02"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Análisis y Optimización Web",
+          "description": "Utilizo herramientas como Google Analytics para analizar métricas clave, identificar oportunidades de mejora y optimizar sitios web, ayudando a mis clientes a alcanzar sus objetivos de manera efectiva y eficiente.",
+          "number": "03"
+        },
+        {
+          "icon": "fa-solid fa-image",
+          "title": "Diseño y Edición Visual",
+          "description": "Manejo herramientas como Photoshop, Illustrator, Figma, entre otras, para desarrollar contenido visual de alta calidad, adaptado a las necesidades de cada cliente y optimizando su presencia digital.",
+          "number": "04"
+        },
+        {
+          "icon": "fa-solid fa-database",
+          "title": "Gestión y Optimización de Bases de Datos",
+          "description": "Administro, optimizo y realizo mantenimiento de bases de datos como MySQL, MongoDB y Firebase, asegurando un almacenamiento eficiente, seguro y accesible. Mi enfoque se centra en mantener la estructura de los datos organizada y garantizar su rendimiento óptimo para mejorar la eficiencia de tu sitio web.",
+          "number": "05"
+        },
+        {
+          "icon": "fa-solid fa-cogs",
+          "title": "Desarrollo y Gestión de API",
+          "description": "Desarrollo e implemento APIs RESTful para la integración de sistemas, permitiendo que tus aplicaciones web se comuniquen de manera más fluida. Me encargo de la creación, documentación y mantenimiento de APIs escalables y seguras, mejorando la interoperabilidad y eficiencia de tus proyectos digitales.",
+          "number": "06"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Habilidades",
+    "className": "skills section",
+    "content": {
+      "title": {
+        "text": "Habilidades Profesionales",
+        "subtitle": "Mi Talento"
+      },
+      "skills": [
+        {
+          "name": "JavaScript",
+          "percentage": "95%",
+          "description": "Amplia experiencia en desarrollo web con JavaScript, incluyendo frameworks modernos como Vue.js y React.",
+          "barWidth": "95%"
+        },
+        {
+          "name": "Vue.js",
+          "percentage": "85%",
+          "description": "Experiencia avanzada en el desarrollo de aplicaciones dinámicas y escalables implementando Vuex y Vue Router.",
+          "barWidth": "85%"
+        },
+        {
+          "name": "WordPress",
+          "percentage": "90%",
+          "description": "Experto en desarrollo y personalización de temas y plugins para WordPress, con optimización SEO avanzada.",
+          "barWidth": "90%"
+        },
+        {
+          "name": "PHP",
+          "percentage": "70%",
+          "description": "Desarrollo backend con PHP, integrando MySQL, optimizando consultas y creando APIs RESTful escalables.",
+          "barWidth": "70%"
+        },
+        {
+          "name": "React",
+          "percentage": "75%",
+          "description": "Conocimiento intermedio en React para crear componentes reutilizables y manejar estado con Redux.",
+          "barWidth": "75%"
+        },
+        {
+          "name": "Adobe Creative Suite",
+          "percentage": "85%",
+          "description": "Proficiente en diseño gráfico y edición con herramientas como Photoshop, Illustrator y Premiere Pro.",
+          "barWidth": "85%"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Portafolio",
+    "className": "works section",
+    "content": {
+      "title": {
+        "text": "Trabajos Recientes",
+        "subtitle": "Portafolio"
+      },
+      "works": [
+          {
+          "image": "assets/img/Portafolio1.png",
+          "title": "Plego Amoblamientos",
+          "description": "Desarrollo y Diseño Web",
+          "url": "https://plegoamoblamientos.com/"
+        },
+        {
+          "image": "assets/img/Portafolio6.png",
+          "title": "Dolce Mattina",
+          "description": "Desarrollo y Diseño Web",
+          "url": "https://dolcemattina.netlify.app/"
+        },
+        {
+          "image": "assets/img/Portafolio2.png",
+          "title": "FraloConstrucciones",
+          "description": "Desarrollo y Diseño Web",
+          "url": "https://grupofraloconstrucciones.com/"
+        },
+        {
+          "image": "assets/img/Portafolio3.png",
+          "title": "Steam",
+          "description": "Diseño Ux/Ui",
+          "url": "https://www.canva.com/design/DAGUlFHEA34/XfkOtApxLu5acpY_2P7Cxw/view?utm_content=DAGUlFHEA34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e97e3f6de"
+        },
+        {
+          "image": "assets/img/Portafolio4.png",
+          "title": "YOKO Eventos",
+          "description": "Desarrollo y Diseño Web",
+          "url": "https://yoko-eventos.netlify.app/"
+        },
+        {
+          "image": "assets/img/Portafolio5.png",
+          "title": "NutriTrack",
+          "description": "Desarrollo y Diseño Web",
+          "url": "https://nutri-track.netlify.app/"
+        }
+      ]
+    }
+  }
 ]
