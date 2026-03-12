@@ -67,7 +67,7 @@
           "description": "nicolasbucceri.dev@hotmail.com"
         }
       ],
-      "cvLink": "assets/CV.pdf",
+      "cvLink": "assets/NicolasBucceri_CV2026.pdf",
       "socialLinks": [
         {
           "platform": "instagram",
@@ -83,6 +83,42 @@
           "platform": "github",
           "link": "https://github.com/NicolasBucceri?tab=repositories",
           "icon": "fa-brands fa-github"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Experiencia",
+    "className": "qualification section",
+    "content": {
+      "trabajos": [
+        {
+          "empresa": "Freelancer",
+          "puesto": "Desarrollador Web / Diseñador UX-UI",
+          "fecha": "2026 - ACTUALIDAD",
+          "descripcion": "Diseño y desarrollo de sitios web con Vue.js, Tailwind, Firebase y Node.js, centrados en usuario, rendimiento y automatización, con pagos, PWAs y soluciones a medida.",
+          "icon": "-"
+        },
+        {
+          "empresa": "Freelancer",
+          "puesto": "Plego Amoblamientos",
+          "fecha": "2025 - 2026",
+          "descripcion": "Landing page construida con Vue.js y Bootstrap, bajo una arquitectura modular de componentes y un enfoque desktop-first, priorizando rendimiento, claridad visual y experiencia consistente en todos los dispositivos.",
+          "icon": "+"
+        },
+        {
+          "empresa": "Freelancer",
+          "puesto": "Dolce Mattina",
+          "fecha": "2024 - 2025",
+          "descripcion": "Desarrollo de landing page y PWA mobile-first con HTML, CSS, JavaScript, Service Workers y manifest.json; optimizada para offline, diseño modular, animaciones personalizadas y experiencia fluida en móvil y desktop.",
+          "icon": "+"
+        },
+        {
+          "empresa": "Freelancer",
+          "puesto": "FraloConstrucciones",
+          "fecha": "2024 - 2025",
+          "descripcion": "Desarrollé este sitio web en WordPress, aplicando un diseño moderno y minimalista con animaciones. Utilicé el tema Astra y Elementor Pro, junto con plugins como WPForms, WhatsApp y Chaty para optimizar la interacción. El proyecto se completó en dos semanas.",
+          "icon": "-"
         }
       ]
     }
@@ -126,36 +162,6 @@
           "fecha": "2017 - 2021",
           "descripcion": "Durante mi formación adquirí conocimientos en gestión administrativa, contabilidad y economía. Sé manejar libros contables, análisis financiero y documentación administrativa.",
           "icon": "+"
-        }
-      ],
-      "trabajos": [
-        {
-          "empresa": "Freelancer",
-          "puesto": "Desarrollador Web / Diseñador UX-UI ",
-          "fecha": "2026 - ACTUALIDAD",
-          "descripcion": "Diseño y desarrollo de sitios web con Vue.js, Tailwind, Firebase y Node.js, centrados en usuario, rendimiento y automatización, con pagos, PWAs y soluciones a medida.",
-          "icon": "-"
-        },
-        {
-          "empresa": "Freelancer",
-          "puesto": "Plego Amoblamientos",
-          "fecha": "2025 - 2026",
-          "descripcion": "Landing page construida con Vue.js y Bootstrap, bajo una arquitectura modular de componentes y un enfoque desktop-first, priorizando rendimiento, claridad visual y experiencia consistente en todos los dispositivos.",
-          "icon": "+"
-        },
-        {
-          "empresa": "Freelancer",
-          "puesto": "Dolce Mattina",
-          "fecha": "2024 - 2025",
-          "descripcion": "Desarrollo de landing page y PWA mobile-first con HTML, CSS, JavaScript, Service Workers y manifest.json; optimizada para offline, diseño modular, animaciones personalizadas y experiencia fluida en móvil y desktop.",
-          "icon": "+"
-        },
-        {
-          "empresa": "Freelancer",
-          "puesto": "FraloConstrucciones",
-          "fecha": "2024 - 2025",
-          "descripcion": "Desarrollé este sitio web en WordPress, aplicando un diseño moderno y minimalista con animaciones. Utilicé el tema Astra y Elementor Pro, junto con plugins como WPForms, WhatsApp y Chaty para optimizar la interacción. El proyecto se completó en dos semanas.",
-          "icon": "-"
         }
       ]
     }
@@ -261,7 +267,7 @@
         "subtitle": "Portafolio"
       },
       "works": [
-          {
+        {
           "image": "assets/img/Portafolio1.png",
           "title": "Plego Amoblamientos",
           "description": "Desarrollo y Diseño Web",
