@@ -20,7 +20,7 @@
         }
       ],
       "image": {
-        "src": "assets/img/Perfil3.png",
+        "src": "assets/img/Perfil3.webp",
         "alt": "Nicolas Bucceri Portafolio Perfil"
       }
     }
@@ -31,19 +31,19 @@
     "content": {
       "images": [
         {
-          "src": "assets/img/SobreMi1.png",
+          "src": "assets/img/SobreMi1.webp",
           "alt": "Nicolas Bucceri Portafolio Img1"
         },
         {
-          "src": "assets/img/SobreMi1.png",
+          "src": "assets/img/SobreMi1.webp",
           "alt": "Nicolas Bucceri Portafolio Img2"
         },
         {
-          "src": "assets/img/SobreMi1.png",
+          "src": "assets/img/SobreMi1.webp",
           "alt": "Nicolas Bucceri Portafolio Img3"
         },
         {
-          "src": "assets/img/SobreMi1.png",
+          "src": "assets/img/SobreMi1.webp",
           "alt": "Nicolas Bucceri Portafolio Img4"
         }
       ],
@@ -268,37 +268,37 @@
       },
       "works": [
         {
-          "image": "assets/img/Portafolio1.png",
+          "image": "assets/img/Portafolio1.webp",
           "title": "Plego Amoblamientos",
           "description": "Desarrollo y Diseño Web",
           "url": "https://plegoamoblamientos.com/"
         },
         {
-          "image": "assets/img/Portafolio6.png",
+          "image": "assets/img/Portafolio6.webp",
           "title": "Dolce Mattina",
           "description": "Desarrollo y Diseño Web",
           "url": "https://dolcemattina.netlify.app/"
         },
         {
-          "image": "assets/img/Portafolio2.png",
+          "image": "assets/img/Portafolio2.webp",
           "title": "FraloConstrucciones",
           "description": "Desarrollo y Diseño Web",
           "url": "https://grupofraloconstrucciones.com/"
         },
         {
-          "image": "assets/img/Portafolio3.png",
+          "image": "assets/img/Portafolio3.webp",
           "title": "Steam",
           "description": "Diseño Ux/Ui",
           "url": "https://www.canva.com/design/DAGUlFHEA34/XfkOtApxLu5acpY_2P7Cxw/view?utm_content=DAGUlFHEA34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e97e3f6de"
         },
         {
-          "image": "assets/img/Portafolio4.png",
+          "image": "assets/img/Portafolio4.webp",
           "title": "YOKO Eventos",
           "description": "Desarrollo y Diseño Web",
           "url": "https://yoko-eventos.netlify.app/"
         },
         {
-          "image": "assets/img/Portafolio5.png",
+          "image": "assets/img/Portafolio5.webp",
           "title": "NutriTrack",
           "description": "Desarrollo y Diseño Web",
           "url": "https://nutri-track.netlify.app/"
