@@ -20,7 +20,7 @@
         }
       ],
       "image": {
-        "src": "assets/img/Perfil.png",
+        "src": "assets/img/Perfil3.png",
         "alt": "Nicolas Bucceri Portafolio Perfil"
       }
     }
@@ -31,19 +31,19 @@
     "content": {
       "images": [
         {
-          "src": "assets/img/SobreMi.jpg",
+          "src": "assets/img/SobreMi1.png",
           "alt": "Nicolas Bucceri Portafolio Img1"
         },
         {
-          "src": "assets/img/SobreMi.jpg",
+          "src": "assets/img/SobreMi1.png",
           "alt": "Nicolas Bucceri Portafolio Img2"
         },
         {
-          "src": "assets/img/SobreMi.jpg",
+          "src": "assets/img/SobreMi1.png",
           "alt": "Nicolas Bucceri Portafolio Img3"
         },
         {
-          "src": "assets/img/SobreMi.jpg",
+          "src": "assets/img/SobreMi1.png",
           "alt": "Nicolas Bucceri Portafolio Img4"
         }
       ],
@@ -56,7 +56,7 @@
         },
         {
           "title": "Edad:",
-          "description": "21"
+          "description": "22"
         },
         {
           "title": "Región:",
@@ -67,7 +67,7 @@
           "description": "nicolasbucceri.dev@hotmail.com"
         }
       ],
-      "cvLink": "assets/NicolasBucceri_CV2026.pdf",
+      "cvLink": "assets/json/NicolasBucceri_CV2026.pdf",
       "socialLinks": [
         {
           "platform": "instagram",
